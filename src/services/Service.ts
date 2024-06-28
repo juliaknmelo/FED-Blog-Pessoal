@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import axios from "axios";
 
-
 const api = axios.create({
   baseURL: 'https://blog-pessoal-1-3gb1.onrender.com/'
 })
