@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Projeto Blog Pessoal
 
-Currently, two official plugins are available:
+Projeto de uma plataforma de blog, com as funcionalidades de CRUD de postagens e temas de postagens, além do perfil do usuário. O projeto foi desenvolvido na finalização do bootcamp da Generation Brasil. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Cadastro e Login de usuários: sistema de autenticação para permitir o cadastro e login de usuários. 
+- Feed de postagens: exibição de todas as postagens.
+- Criação de postagens e temas: permite que o usuário logado faça a criação e publicação de postagens e temas de postagens.
+- Edição de postagens e temas: permite que o usuário logado faça a edição de postagens e temas de postagens.
+- Exibição de postagens e temas: permite que o usuário logado visualize todas as postagens e temas.
+- Delete de postagens e temas: permite que o usuário logado delete postagens e/ou temas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Stack utilizada
+
+**Front-end:** React.JS, TailwindCSS, Typescript
+
+**Back-end:** Java, Spring, MySQL
+
+
+## Melhorias futuras
+
+- Melhorar exibição do perfil do usuário.
+- Permitir a edição de perfil do usuário.
+- Melhorar frontend do feed de publicações.
+
